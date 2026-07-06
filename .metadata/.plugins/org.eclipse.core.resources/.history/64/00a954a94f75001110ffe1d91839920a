@@ -1,0 +1,5 @@
+package com.deliveryservice.config;
+
+public class ProjectConfig {
+
+}

@@ -1,0 +1,22 @@
+package com.deliveryservice.config;
+
+import org.apache.kafka.clients.admin.NewTopic;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.kafka.config.TopicBuilder;
+
+@Configuration
+public class ProjectConfig {
+	
+	@Bean
+	public NewTopic topic() {
+		return TopicBuilder
+				.name(AppConstant.Location_TOPIC_NAME)
+//				.partitions()
+//				.replicas()
+				.build();
+	}
+		
+	
+
+}

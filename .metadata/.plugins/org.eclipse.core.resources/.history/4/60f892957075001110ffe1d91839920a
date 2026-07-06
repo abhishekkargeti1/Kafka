@@ -1,0 +1,15 @@
+package com.deliveryservice.serviceImpl;
+
+import com.deliveryservice.service.KafkaService;
+
+public class KafkaServiceImpl  implements KafkaService{
+
+	@Override
+	public boolean updateLocation() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
+
+}

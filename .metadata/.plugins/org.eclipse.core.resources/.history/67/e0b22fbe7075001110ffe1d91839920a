@@ -1,0 +1,21 @@
+package com.deliveryservice.serviceImpl;
+
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Service;
+
+import com.deliveryservice.service.KafkaService;
+
+@Service
+public class KafkaServiceImpl  implements KafkaService{
+
+	
+	private KafkaTemplate<String, String> kafkaTemplate;
+	@Override
+	public boolean updateLocation(String location) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
+
+}

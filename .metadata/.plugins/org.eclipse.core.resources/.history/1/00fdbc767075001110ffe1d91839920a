@@ -1,0 +1,6 @@
+package com.deliveryservice.service;
+
+public interface KalfaService {
+
+	public boolean updateLocation();
+}

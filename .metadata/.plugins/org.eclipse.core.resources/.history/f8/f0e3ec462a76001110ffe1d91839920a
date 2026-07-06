@@ -1,0 +1,15 @@
+package com.customerservice.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.kafka.annotation.KafkaListener;
+
+@Configuration
+public class ProjectConfig {
+	
+	@KafkaListener(topics = "" ,groupId="")
+	public void updateLocation(String value) {
+	
+	}
+	
+
+}
